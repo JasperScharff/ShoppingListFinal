@@ -1,0 +1,114 @@
+/* GLOBAL */
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.header-main-title {
+  padding: 80px;
+  margin: 5px;
+  background-color: rgb(53, 45, 45);
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+/* SPACE MAKER */
+.grocery-list,
+.shopping-cart {
+  margin: 2em;
+}
+
+/* GROCERY LIST AREA */
+.grocery-list .list-item {
+  display: flex;
+  padding: 10px;
+}
+
+.grocery-list .list-item:nth-child(odd) {
+  background-color: #c77676;
+}
+
+.grocery-list .list-item:nth-child(even) {
+  background-color: #eba5a5;
+}
+
+.grocery-list .list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SHOPPING CARD AREA */
+.shopping-cart .list-item {
+  display: flex;
+  padding: 10px;
+}
+
+.shopping-cart .list-item:nth-child(odd) {
+  background-color: rgba(127, 142, 190, 255);
+}
+
+.shopping-cart .list-item:nth-child(even) {
+  background-color: rgba(165, 181, 235, 255);
+}
+
+.shopping-cart .list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.item-amount {
+  display: flex;
+  align-items: center;
+}
+
+/* GLOBAL LIST ITEM */
+.list-item {
+  cursor: pointer;
+}
+.list-item:hover {
+  font-weight: bold;
+}
+
+/* INPUT FIELD AREA */
+input {
+  padding: 10px;
+  font-size: 13px;
+}
+input:focus {
+  background-color: rgba(235,165,165,255 0.5);
+  background-color: rgba(235, 165, 255, 0.2);
+}
+
+/* BUTTON */
+button {
+  padding: 10px;
+  margin-left: 5px;
+}
+
+button {
+  border: 1px solid lightgray;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 5px;   
+  box-shadow: 2px 2px 2px #777;
+  margin-bottom: 5px
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightcoral;
+}
+
+button:focus {
+  outline:0;
+}
+button:active {
+  background-color: rgb(128, 63, 63); 
+  box-shadow:  0 0 0;
+  color: whitesmoke;
+}
